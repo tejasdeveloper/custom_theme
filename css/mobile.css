@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+
+	.container {
+		width:95%;
+		margin:auto;
+	}
+	.nav-menu{
+		display:none;
+	}
+	.header-logo {
+		flex-basis: 80%;
+		text-align: left;
+	}
+	.header-menu {
+		flex-basis: 20%;
+		align-self: center;
+	}
+	.headertop {
+		padding: 10px 0;
+	}
+	.headercontact{
+		display:none;
+	}
+	.header-logo img{
+		width: 120px;
+	}
+	.headerbottom{
+		display:none;
+	}
+	.footer-top {    
+    	padding: 20px 0;
+	}
+	.footer-top .row{
+		flex-direction: column;
+	}
+	.footerwid{
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.footersocial{
+		    justify-content: center;
+	}
+	.footer-bottom .row{
+		flex-direction: column;
+	}
+	.copyright, .footercredit p{
+		text-align:center;
+	}
+	
+	
+	/* Home Page class */
+	.slide1cap h2{
+		font-size: 40px;
+	}
+	.slide1cap h3{
+		font-size: 30px;
+	}
+	
+	.vc_row {
+    	margin-left: 0px !important;
+    	margin-right: 0px!important;
+	}
+	.home_mission {
+    	margin-top: 0px;
+    	padding-right: 0px;
+	}
+	.slidevision h3 {
+		font-size: 20px;
+	}
+	.slidevision p {
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.featuredfabric_photo, .featuredfabric{
+		text-align:center !important;
+	}
+	.stickyHeader, #header{
+		position:relative;
+	}
+	.topbar .row{
+		flex-direction: column;
+	}
+	.topbar .topemail{margin-bottom: 10px;}
+	.topbar .topemail, .topbar .topphone{
+		text-align:left;
+	}
+	.footerlinks{ padding-left:0;}
+	.footerlinks,.footercontact{
+		margin-top:30px;		
+	}
+	.footer-top .container{
+		width: 80%;
+	}
+	.order1{
+		order:1;
+	}
+	
+	.order2{
+		order:2;
+	}
+	.servicerow{
+		margin-top:50px;
+	}
+}

@@ -1,0 +1,368 @@
+/*
+Theme Name: Tejas Custom THeme
+Theme URI: https://www.linkedin.com/in/tejas-chauhan-77987480/
+Author: developertejas@gmail.com
+Author URI: https://www.linkedin.com/in/tejas-chauhan-77987480/
+Description: Custom Theme
+ 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+*/
+*{
+	padding:0;
+	margin:0;
+}
+input:focus, input:focus-visible, textarea:focus, textarea:focus-visible{
+	outline:none;
+}
+body {
+ font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-weight:400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  
+
+}
+
+a {
+  color: #428bca;
+}
+
+a:hover {
+  color: #F360B8;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+.textcenter{
+	text-align:center;
+}
+.nomargin{
+	margin:0 !important;
+}
+.img-fluid{
+	max-width:100%;
+}
+.mainwraper{
+	padding-top:0px;
+}
+
+.redbtn{
+  background: #ed1b24;
+  border: 1px solid #ed1b24;
+  padding: 10px 15px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;  
+  border-radius: 5px;
+  font-weight: 500;
+
+}
+.redbtn:hover {
+  background: none;
+  color: #ed1b24;
+}
+/* Home Page Class Start here*/
+
+
+
+/* Slider caption*/
+.slide1caption1{
+	color:#1a1c23;
+	font-size:50px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height: 60px;	
+	font-weight:700;
+}
+.slide2caption1{
+	color:#fff;
+	font-size:30px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height: 36px;	
+	font-weight:700;
+	filter: drop-shadow(-2.598px 1.5px 1.5px rgba(2,2,2,0.5));
+}
+.slide3caption1{
+	color:#fff;
+	font-size:50px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height: 60px;	
+	font-weight:700;
+	filter: drop-shadow(-2.598px 1.5px 1.5px rgba(2,2,2,0.5));
+}
+
+
+.homeheading2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #3d5675;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#sp-wp-carousel-free-id-62.sp-wpcp-62 .wpcp-single-item {
+  border: 0!important;
+}
+hr.homesep{
+	width:100%;
+	height:1px;
+	background:#1a1c23;
+	border:0;
+	margin:30px 0;
+}
+.homeheading{
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #3d5675;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+	}
+
+/* Benefit*/
+.homebenefititem{
+	text-align:center;
+}
+.homebenefititem h3{
+	font-size:26px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#000;	
+	margin-bottom:20px;
+}
+.zeroimage img{
+	width: 195px;
+	margin-top: 45px;
+}
+.cashbackimage img{
+margin-top: 92px;
+width: 350px;
+}
+.grayborder > .vc_column-inner > .wpb_wrapper{
+	border:2px solid #CCC;
+	height: 100%;
+}
+
+.rentalsmallimg{
+	list-style:none;
+	margin-top:10px;
+}
+.rentalsmallimg li{
+	display:inline-block;
+}
+.rentalsmallimg li img{
+	height:30px;
+}
+/* 3 Easy Step*/
+.homeeasystep{
+	clip-path: polygon(6px 96px, 99.92% 13px, 99.79% 93.3%, 6px 81.75%);
+	background:url(images/our-easy-step-process2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	;
+}
+.homecarimage{
+	margin-top: 100px;
+	margin-bottom:0px;
+}
+.homecarimage img{
+	width:335px;
+}
+.easysteptext{
+	background:rgba(34,46,59,0.6);
+	padding:50px 20px;
+	
+}
+.easysteptext h3{
+	font-size:26px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#FFF;
+	text-align:center;
+	margin-bottom:25px;
+}
+.easysteptext h4{
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#FFF;
+	
+}
+.easysteptext p{
+	font-size:16px;	
+	color:#FFF;
+	
+}
+.easysteps{
+	list-style:none;
+}
+.easysteps li{
+	margin-bottom:25px;
+	position: relative;
+	padding-left: 60px;
+}
+.easysteps li:before{
+	
+	border: 2px solid #FFF;
+	font-size: 28px;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	color: #FFF;
+}
+.easysteps li:nth-child(1):before{
+	content: '1';
+}
+.easysteps li:nth-child(2):before{
+	content: '2';
+}
+.easysteps li:nth-child(3):before{
+	content: '3';
+}
+
+/* End here*/
+.contactwraper{
+	
+}
+
+
+
+.homeabout{
+	font-size: 18px;	
+	color: #3d5675;
+	font-weight: 400;	
+	line-height:26px;	
+	padding-top:50px;
+}
+
+.homecontact{
+	text-align:center;
+}
+.homecontact h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #3d5675;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.homecontact h3{
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #3d5675;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.homecontact p{
+	margin-bottom:50px;
+}
+.redbtn2{
+  background: #ed1b24;
+  border: 1px solid #ed1b24;
+  padding: 10px 15px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;  
+  border-radius: 5px;
+  font-weight: 500;
+
+}
+.redbtn2:hover {
+  background: none;
+  color: #ed1b24;
+}
+/* Contact Page*/
+.vehicleform {
+  display: flex;  
+}
+.con_yourinfo{
+  flex-basis: 45%;
+  margin-right: 5%;
+}
+.con_vehicleinfo {
+  flex-basis: 50%;
+  margin-right: 0;
+}
+.con_yourinfo h4, .con_vehicleinfo h4{
+	font-size:16px;
+	text-transform:uppercase;
+	color: #3d5675;
+	font-weight: 700;
+	text-align:center;
+	margin-bottom:10px;
+} 
+
+.formrow ::placeholder {
+  color: #000;
+  font-weight: 400;
+  opacity: 1;
+  font-size:16px;
+}
+.formrow input[type="text"], .formrow input[type="email"], .formrow textarea {
+  width: 100%; 
+}
+.formrow input[type="text"], .formrow input[type="email"] {
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #ebebeb;
+ 
+  background:#ebebeb;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.formbutton input[type="submit"] {
+  background: #00b0d1;
+  border: 1px solid #00b0d1;
+  padding: 10px 15px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;  
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.formbutton input[type="submit"]:hover {
+  background: none;
+  color: #00b0d1;
+}
+.formbutton{
+text-align: center;}
+
+
+.slidevision{
+	background:rgba(0,0,0,0.6);
+	padding:20px;
+}
+.slidevision h3{
+	font-weight: 600;
+	color: #FFF;
+	font-size: 24px;
+	text-align: left;
+	text-transform:uppercase;
+}
+.slidevision p{
+	font-weight: 400;
+	color: #FFF;
+	font-size: 16px;
+	text-align: left;
+}
